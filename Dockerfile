@@ -1,5 +1,5 @@
 FROM alpine:3.9
-MAINTAINER Werner Beroux <werner@beroux.com>
+LABEL maintainer="Vinay Augustine <me@vinayaugustine.com>"
 
 RUN set -x && \
     apk add --no-cache -t .deps ca-certificates && \
